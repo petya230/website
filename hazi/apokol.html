@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Üdvözöllek a Pokolban :/</title>
+<link rel="stylesheet" type="text/css" href="pokol.css" />
+<style type="text/css">
+table{
+	color:white;
+}
+</style>
+</head>
+<body>
+<h1>Ahova belépni próbálsz veszélyes egy hely, biztos tovább lépsz?</h1>
+<form>
+<table align="center">
+<tr>
+<td colspan="2" align="center"><b>Bejelentkezés szükséges</b></td>
+</tr>
+<tr>
+<td>Felhasználónév:</td>
+<td><input type="text" size="32" name="userid"/></td>
+</tr>
+<tr>
+<td>Jelszó:</td>
+<td><input type="password" size="32" name="pwd"/></td>
+</tr>
+<tr>
+<td><input type="submit" onclick="check(this.form)" id="close" value="Bejelentkezés"/></td>
+</tr>
+</table>
+</form>
+<script type="text/javascript" language="javascript">
+function check(form)
+{
+var link;
+if(form.userid.value == 'asd' && form.pwd.value == 'asd')
+{
+document.formName.action="bent.htm";
+document.formName.submit();
+}
+else
+{
+alert("Rossz felhasználónév, vagy jelszó!");
+}
+
+}
+</script>
+</body>
+</html>

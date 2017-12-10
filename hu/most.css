@@ -1,0 +1,67 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+p {
+    font-size: 16px>
+}
+.margin {
+    margin-bottom: 45px;
+}
+.bg-1 {
+    background-color: #4285F4;
+    color: #000000;
+}
+.bg-2 {
+    background-color: #FBBC05;
+    color: #000000;
+}
+.bg-3 {
+    background-color: #34A853;
+    color: #000000;
+}
+.bg-4 {
+    background-color: #EA4335;
+    color: #ffffff;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+footer{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;      
+    padding-top: 0 !important;
+    font-size: 10px !important;
+    /*height:25px !important;*/
+}
+.affix-top {
+    /* nothing */
+}
+
+.affix {
+    position:fixed;
+    margin: auto;
+    padding: auto;
+    background-color: #4285F4;
+    color: #000000;
+    width: 25%;
+    top: 0%;
+    transition: 0.8s;
+}
+.kis{
+    text-size:20px !important;
+}

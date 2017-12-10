@@ -1,0 +1,12 @@
+﻿html{
+background-image:url('pokol kapuja.jpg'); 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+h1{
+font-size:x-large;
+text-align:center;
+color:white;
+}
